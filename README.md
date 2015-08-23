@@ -5,4 +5,4 @@ To use:
 * `git clone https://github.com/tdsmith/vagrant-linuxbrew-ubuntu.git`
 * `cd vagrant-linuxbrew-ubuntu`
 * `vagrant up --provider virtualbox`
-* `vagrant ssh brew tests` (this actually fails right now but it does run!)
+* `vagrant ssh -- brew tests` (this actually fails right now but it does run!)
