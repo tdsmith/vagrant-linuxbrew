@@ -1,7 +1,7 @@
 #!/bin/bash
 yum -y update
 yum -y groupinstall 'Development Tools'
-yum -y install curl git m4 ruby texinfo bzip2-devel curl-devel expat-devel ncurses-devel zlib-devel ruby-devel
+yum -y install curl git m4 ruby texinfo bzip2-devel curl-devel expat-devel ncurses-devel zlib-devel ruby-devel libX11-devel libXt-devel
 
 su -l vagrant <<EOS
     echo 'export PATH=~/.linuxbrew/bin:\$PATH' >> ~/.bashrc
